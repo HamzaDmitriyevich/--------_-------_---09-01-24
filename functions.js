@@ -23,17 +23,25 @@ function odnigrupniki(){
 }
 
 
-function pruvety(odnogrupnikam){
-    
-    pruvety.forEach(function(name) {
-        console.log(Привет, ${name}!);
-        
+function pruvety(odnogrupnikam){    
+    odnogrupnikam.forEach(function(name) {
+        console.log(Привет, '${name}!');        
     });
 
-    const odnogrupnikam = ['Сергей', 'Олег', 'Павел', 'Дарья', 'Уулжан'];
+  
+}
+const odnogrupnikam = ['Сергей', 'Олег', 'Павел', 'Дарья', 'Уулжан'];
     pruvety(odnogrupnikam);
 
-}
+
+    function odnoklassniki() {
+        const odnk = ['Сергей', 'Олег', 'Павел', 'Дарья', 'Уулжан'];
+        for(const name of odnk){
+            console.log(Привет , '${name}!');
+        }
+    }
+odnoklassniki()// - Запустить процесс в консоли.
+
 
 
 
