@@ -23,7 +23,17 @@ function odnigrupniki(){
 }
 
 
+function pruvety(odnogrupnikam){
+    
+    pruvety.forEach(function(name) {
+        console.log(Привет, ${name}!);
+        
+    });
 
+    const odnogrupnikam = ['Сергей', 'Олег', 'Павел', 'Дарья', 'Уулжан'];
+    pruvety(odnogrupnikam);
+
+}
 
 
 
