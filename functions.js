@@ -4,7 +4,7 @@ window.addEventListener(
     
 )
 
-function date (){
+/*function date (){
     let date = new Date();
     console.log(date);
 }
@@ -42,7 +42,7 @@ const odnogrupnikam = ['Сергей', 'Олег', 'Павел', 'Дарья', '
     }
 odnoklassniki()// - Запустить процесс в консоли.
 
-
+*/
 
 
 
