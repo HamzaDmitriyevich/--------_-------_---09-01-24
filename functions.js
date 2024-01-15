@@ -57,6 +57,13 @@ function najimaem_knopku(event_click){
 
 }
 
+function naj_zag(event_zag){
+    console.log(event_zag.clientX);
+    console.log(event_zag.clientY);
+    event_zag.currentTarget.style.backgroundColor = 'red';
+
+}
+
 
 
 
@@ -67,5 +74,15 @@ function start(event_button){
     'click',
     najimaem_knopku
     );
-
+    zag.addEventListener(
+        'click',
+        naj_zag       
+    );
+   
 }
+
+
+
+
+
+
