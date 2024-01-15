@@ -64,6 +64,12 @@ function naj_zag(event_zag){
 
 }
 
+function naj_abz(event_abz){
+    console.log(event_abz.clientX);
+    console.log(event_abz.clientY);
+    event_abz.currentTarget.style.backgroundColor = 'orange';
+
+}
 
 
 
@@ -78,7 +84,10 @@ function start(event_button){
         'click',
         naj_zag       
     );
-   
+   abz.addEventListener(
+    'click',
+    naj_abz
+   );
 }
 
 
