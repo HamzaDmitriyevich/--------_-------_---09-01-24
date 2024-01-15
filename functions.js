@@ -47,3 +47,25 @@ odnoklassniki()// - Запустить процесс в консоли.
 
 
 
+
+
+function najimaem_knopku(event_click){
+    console.log(event_click.clientX);
+    console.log(event_click.clientY);
+    event_click.currentTarget.style.backgroundColor = 'green';
+
+
+}
+
+
+
+
+
+
+function start(event_button){
+    knopka.addEventListener(
+    'click',
+    najimaem_knopku
+    );
+
+}
